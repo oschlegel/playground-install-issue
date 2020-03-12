@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "playgroundInstallIssue",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "playground-install-issue",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
